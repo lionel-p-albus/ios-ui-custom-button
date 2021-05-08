@@ -21,14 +21,185 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P13-tT-UcT">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="800"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5v-VS-NDd" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="49" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="5WZ-e0-Ai7"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Hb4-Cs-80D"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am8-qT-XnB" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="109" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="QoF-IZ-8ZI"/>
+                                                    <constraint firstAttribute="height" constant="50" id="lbd-ca-mYZ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" systemColor="systemRedColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Fk-wA-1uc" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="169" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="clJ-om-4FO"/>
+                                                    <constraint firstAttribute="height" constant="50" id="l3g-Qy-Jo0"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" systemColor="systemBlueColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" systemColor="systemYellowColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="0.0" height="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbz-2e-M6v" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="239" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="N3w-vG-mAX"/>
+                                                    <constraint firstAttribute="height" constant="50" id="wJv-CA-GM8"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" systemColor="systemBlueColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" systemColor="systemOrangeColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="0.0" height="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqb-UQ-s3y" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="309" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="j2S-Cv-jJm"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="nqZ-HY-dnl"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerPosition">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyO-X7-vhe" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="419" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="CSc-Bg-4WR"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="tMH-Ju-ino"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerPosition">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="sbz-2e-M6v" firstAttribute="top" secondItem="7Fk-wA-1uc" secondAttribute="bottom" constant="20" id="5rj-lM-UaG"/>
+                                            <constraint firstItem="am8-qT-XnB" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="I2I-H9-uud"/>
+                                            <constraint firstAttribute="trailing" secondItem="C5v-VS-NDd" secondAttribute="trailing" constant="39.333333333333371" id="JYZ-CU-Gf7"/>
+                                            <constraint firstItem="C5v-VS-NDd" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="O3P-4i-Mpa"/>
+                                            <constraint firstAttribute="trailing" secondItem="WyO-X7-vhe" secondAttribute="trailing" constant="39.329999999999998" id="R47-bl-kzY"/>
+                                            <constraint firstItem="sbz-2e-M6v" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="RhB-Cq-5Xm"/>
+                                            <constraint firstItem="am8-qT-XnB" firstAttribute="top" secondItem="C5v-VS-NDd" secondAttribute="bottom" constant="10" id="XBN-8L-a4z"/>
                                             <constraint firstAttribute="height" constant="800" id="Z5a-nz-0m0"/>
+                                            <constraint firstAttribute="trailing" secondItem="sbz-2e-M6v" secondAttribute="trailing" constant="39.333333333333371" id="ZQp-FP-8MB"/>
+                                            <constraint firstItem="WyO-X7-vhe" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="cdW-BD-KRw"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Fk-wA-1uc" secondAttribute="trailing" constant="39.333333333333371" id="fJq-v4-Mc3"/>
+                                            <constraint firstItem="kqb-UQ-s3y" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="fWY-PZ-gwV"/>
+                                            <constraint firstItem="7Fk-wA-1uc" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="g7E-oM-R7J"/>
+                                            <constraint firstItem="7Fk-wA-1uc" firstAttribute="top" secondItem="am8-qT-XnB" secondAttribute="bottom" constant="10" id="jgT-kn-3Ai"/>
+                                            <constraint firstItem="C5v-VS-NDd" firstAttribute="top" secondItem="P13-tT-UcT" secondAttribute="top" constant="49" id="vSh-7g-ncg"/>
+                                            <constraint firstItem="kqb-UQ-s3y" firstAttribute="top" secondItem="sbz-2e-M6v" secondAttribute="bottom" constant="20" id="vtT-ub-jMl"/>
+                                            <constraint firstAttribute="trailing" secondItem="am8-qT-XnB" secondAttribute="trailing" constant="39.333333333333371" id="zXl-ev-jhD"/>
+                                            <constraint firstAttribute="trailing" secondItem="kqb-UQ-s3y" secondAttribute="trailing" constant="39.333333333333371" id="zaD-27-pGx"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by9-yu-zRf" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                        <rect key="frame" x="39.333333333333343" y="364" width="311.33333333333326" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="9RS-e4-nwW"/>
+                                            <constraint firstAttribute="height" constant="50" id="Xw4-NL-BdE"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerPosition">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="21.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="P13-tT-UcT" secondAttribute="bottom" id="5e7-dv-AJf"/>
+                                    <constraint firstAttribute="trailing" secondItem="by9-yu-zRf" secondAttribute="trailing" constant="39.329999999999998" id="DZv-qc-yu5"/>
+                                    <constraint firstItem="by9-yu-zRf" firstAttribute="top" secondItem="kqb-UQ-s3y" secondAttribute="bottom" constant="5" id="EFN-6i-HZj"/>
+                                    <constraint firstItem="by9-yu-zRf" firstAttribute="centerX" secondItem="BsO-IK-5WC" secondAttribute="centerX" id="K0Y-Wa-jOa"/>
+                                    <constraint firstItem="WyO-X7-vhe" firstAttribute="top" secondItem="by9-yu-zRf" secondAttribute="bottom" constant="5" id="UPb-uF-ZqL"/>
                                     <constraint firstItem="P13-tT-UcT" firstAttribute="centerX" secondItem="BsO-IK-5WC" secondAttribute="centerX" id="fM8-qa-0ns"/>
                                     <constraint firstAttribute="trailing" secondItem="P13-tT-UcT" secondAttribute="trailing" id="itv-8W-LZk"/>
                                     <constraint firstItem="P13-tT-UcT" firstAttribute="top" secondItem="BsO-IK-5WC" secondAttribute="top" id="p2N-Tz-e4M"/>
@@ -48,12 +219,50 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+            <point key="canvasLocation" x="135.38461538461539" y="118.00947867298578"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="7Fk-wA-1uc">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="C5v-VS-NDd">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="WyO-X7-vhe">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="am8-qT-XnB">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="by9-yu-zRf">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="kqb-UQ-s3y">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="sbz-2e-M6v">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

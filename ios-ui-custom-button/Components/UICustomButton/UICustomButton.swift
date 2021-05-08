@@ -44,12 +44,6 @@ class UICustomButton: UIButton {
         }
     }
     
-    @IBInspectable var cornerPosition: Int = 0 {
-        didSet {
-            self.layer.maskedCorners = CornerPosition.initWith(position: cornerPosition).mask
-        }
-    }
-    
     @IBInspectable var shadowRadius: CGFloat = CGFloat(0.5) {
         didSet {
             self.layer.masksToBounds = false
@@ -68,6 +62,12 @@ class UICustomButton: UIButton {
         didSet {
             self.layer.masksToBounds = false
             self.layer.shadowOffset = shadowOffset
+        }
+    }
+    
+    @IBInspectable var cornerPosition: Int = 0 {
+        didSet {
+            self.layer.maskedCorners = CornerPosition.initWith(position: cornerPosition).mask
         }
     }
     
