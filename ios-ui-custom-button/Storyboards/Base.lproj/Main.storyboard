@@ -341,12 +341,41 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvO-Ip-FKB" customClass="UICustomButton" customModule="ios_ui_custom_button" customModuleProvider="target">
+                                                <rect key="frame" x="39.333333333333343" y="639" width="311.33333333333326" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Fok-ad-C3j"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="311" id="lRB-Pc-04e"/>
+                                                </constraints>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="21.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                        <color key="value" systemColor="systemPinkColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                        <color key="value" systemColor="systemOrangeColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                                        <point key="value" x="0.0" y="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                                        <point key="value" x="0.5" y="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="1bQ-N5-hkw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uVw-Td-E9r" secondAttribute="trailing" id="1k3-Fx-HRM"/>
                                             <constraint firstItem="1bQ-N5-hkw" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="4Mv-p1-VVg"/>
                                             <constraint firstItem="uVw-Td-E9r" firstAttribute="leading" secondItem="P13-tT-UcT" secondAttribute="leading" constant="40" id="4wv-Rz-tl8"/>
+                                            <constraint firstItem="fvO-Ip-FKB" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="5fi-55-Wbf"/>
                                             <constraint firstItem="sbz-2e-M6v" firstAttribute="top" secondItem="7Fk-wA-1uc" secondAttribute="bottom" constant="20" id="5rj-lM-UaG"/>
                                             <constraint firstAttribute="trailing" secondItem="Nj1-Pa-oeF" secondAttribute="trailing" constant="40" id="7aJ-t5-q7P"/>
                                             <constraint firstItem="P8c-gS-QGz" firstAttribute="top" secondItem="Nj1-Pa-oeF" secondAttribute="bottom" constant="5" id="8u7-zm-oaS"/>
@@ -357,6 +386,7 @@
                                             <constraint firstItem="P8c-gS-QGz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AEz-ir-hTW" secondAttribute="trailing" id="CdD-U4-rL2"/>
                                             <constraint firstItem="M5d-EO-g7A" firstAttribute="leading" secondItem="P13-tT-UcT" secondAttribute="leading" constant="40" id="Cuy-DP-fnF"/>
                                             <constraint firstItem="AEz-ir-hTW" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="D8o-FL-v3v"/>
+                                            <constraint firstItem="fvO-Ip-FKB" firstAttribute="top" secondItem="3me-iZ-2FC" secondAttribute="bottom" constant="5" id="Fkh-2W-Nw9"/>
                                             <constraint firstItem="M5d-EO-g7A" firstAttribute="top" secondItem="uVw-Td-E9r" secondAttribute="bottom" constant="5" id="H3P-TE-wi7"/>
                                             <constraint firstItem="Nj1-Pa-oeF" firstAttribute="top" secondItem="R0V-gM-qTR" secondAttribute="bottom" constant="5" id="HFX-h5-pkF"/>
                                             <constraint firstItem="am8-qT-XnB" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="I2I-H9-uud"/>
@@ -365,6 +395,7 @@
                                             <constraint firstItem="C5v-VS-NDd" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="O3P-4i-Mpa"/>
                                             <constraint firstItem="VqK-ij-zn6" firstAttribute="top" secondItem="M5d-EO-g7A" secondAttribute="bottom" constant="5" id="Por-0b-yDI"/>
                                             <constraint firstItem="sbz-2e-M6v" firstAttribute="centerX" secondItem="P13-tT-UcT" secondAttribute="centerX" id="RhB-Cq-5Xm"/>
+                                            <constraint firstAttribute="trailing" secondItem="fvO-Ip-FKB" secondAttribute="trailing" constant="39.333333333333371" id="SmD-lJ-YV5"/>
                                             <constraint firstItem="Nj1-Pa-oeF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1bQ-N5-hkw" secondAttribute="trailing" id="Tfx-8f-Er6"/>
                                             <constraint firstItem="3me-iZ-2FC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VqK-ij-zn6" secondAttribute="trailing" id="TmN-sj-HDv"/>
                                             <constraint firstAttribute="trailing" secondItem="P8c-gS-QGz" secondAttribute="trailing" constant="40" id="UVU-Bo-2RN"/>
@@ -479,6 +510,9 @@
             <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="by9-yu-zRf">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="fvO-Ip-FKB">
             <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
         <designable name="kqb-UQ-s3y">
