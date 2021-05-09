@@ -19,24 +19,28 @@ class UICustomButton: UIButton {
         layer as! CAGradientLayer
     }
     
+    // button corner radius
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             self.layer.cornerRadius = cornerRadius
         }
     }
     
+    // button border color
     @IBInspectable var borderColor: UIColor = UIColor.clear {
         didSet {
             self.layer.borderColor = borderColor.cgColor
         }
     }
     
+    // button border width
     @IBInspectable var borderWidth: CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
         }
     }
     
+    // button shadow color
     @IBInspectable var shadowColor: UIColor = UIColor.clear {
         didSet{
             self.layer.shadowColor = shadowColor.cgColor
@@ -44,6 +48,7 @@ class UICustomButton: UIButton {
         }
     }
     
+    // button shadow radius
     @IBInspectable var shadowRadius: CGFloat = CGFloat(0.5) {
         didSet {
             self.layer.masksToBounds = false
@@ -51,6 +56,7 @@ class UICustomButton: UIButton {
         }
     }
     
+    // button shadow opacity
     @IBInspectable var shadowOpacity: Float = 0.4 {
         didSet {
             self.layer.masksToBounds = false
@@ -58,6 +64,7 @@ class UICustomButton: UIButton {
         }
     }
     
+    // button shadow offset
     @IBInspectable var shadowOffset: CGSize = CGSize(width: 1, height: 4) {
         didSet {
             self.layer.masksToBounds = false
@@ -65,24 +72,28 @@ class UICustomButton: UIButton {
         }
     }
     
+    // button corner position
     @IBInspectable var cornerPosition: Int = 0 {
         didSet {
             self.layer.maskedCorners = CornerPosition.initWith(position: cornerPosition).mask
         }
     }
     
+    // button start color gradient
     @IBInspectable public var startColor: UIColor = .white {
         didSet {
             updateColors()
         }
     }
     
+    // button end color gradient
     @IBInspectable public var endColor: UIColor = .red {
         didSet {
             updateColors()
         }
     }
     
+    // button start point gradient
     @IBInspectable public var startPoint: CGPoint {
         get {
             gradientLayer.startPoint
@@ -93,6 +104,7 @@ class UICustomButton: UIButton {
         }
     }
     
+    // button end point gradient
     @IBInspectable public var endPoint: CGPoint {
         get {
             gradientLayer.endPoint
@@ -102,6 +114,7 @@ class UICustomButton: UIButton {
         }
     }
     
+    // update colores gradient
     private func updateColors() {
         gradientLayer.colors = [startColor.cgColor, endColor.cgColor]
     }
